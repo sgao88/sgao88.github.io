@@ -44,7 +44,7 @@ p {
 
 /* The side navigation menu */
 .sidenav {
-    height: 50%; /* 100% Full-height */
+    height: 35%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
@@ -78,12 +78,6 @@ p {
     right: 10px;
     font-size: 25px;
     margin-left: 50px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 15px;}
 }
 
 .container {
@@ -123,7 +117,7 @@ img {
 .clouds {
     display: flex;
     align-items: center;
-    width: 1050px;
+    width: 100%;
     opacity: 0.25;
     padding-top: 50px;
 }
@@ -133,7 +127,7 @@ img {
     padding-top: 5px;
 }
 
-.footer {
+.footertext {
     font-family: 'Crete Round';
     font-size: 15px;
     color: #333333;
@@ -145,13 +139,20 @@ img {
 
 .skyline {
     display: flex;
-    width: 1050px;
-    opacity: 0.25;
-    padding-top: 50px;
+    opacity: 0.3;
     z-index: 0;
     bottom: 0;
-    padding-top: 60px;
+    padding-top: 120px;
     position: relative;
+    text-align: center;
+}
+
+.skylineimg {
+    display: flex;
+    width: 100%;
+    opacity: 0.25;
+    z-index: 0;
+    bottom: 0;
     text-align: center;
 }
 
@@ -173,4 +174,10 @@ hr {
     padding-top: 10px;
     width: 20px;
     height: 20px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
