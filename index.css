@@ -1,9 +1,9 @@
 body {
     font-family: 'Crete Round';
     font-size: 20px;
-    background-color: lightblue;
+    background-image: linear-gradient(lightblue, blanchedalmond);
     margin-top: 75px;
-    margin-bottom: 75px;
+    margin-bottom: 0px;
     margin-right: 100px;
     margin-left: 100px;
 }
@@ -12,9 +12,15 @@ h1 {
     color: white;
     text-align: center;
     font-size: 75px;
+    text-shadow: 6px 2px pink;
+}
+
+h2 {
+    color: #333333;
 }
   
 p {
+    color: #333333;
     font-family: 'Crete Round';
     font-size: 20px;
 }
@@ -24,7 +30,7 @@ p {
     left: 0;
     background-color: #111;
     color: #818181;
-    padding: 3px 10px 3px 10px;
+    padding: 4px 12px 4px 12px;
 }
 
 /* The side navigation menu */
@@ -99,4 +105,43 @@ p {
     margin: 15px;
     border-radius: 20px;
     padding: 25px;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.clouds {
+    display: flex;
+    align-items: center;
+    width: 1050px;
+    opacity: 0.25;
+    padding-top: 50px;
+}
+
+.tinytext {
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.footer {
+    font-family: 'Crete Round';
+    font-size: 15px;
+    color: #333333;
+    bottom: 0;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.skyline {
+    display: flex;
+    width: 1050px;
+    opacity: 0.25;
+    padding-top: 50px;
+    z-index: 0;
+    bottom: 0;
+    padding-top: 60px;
+    position: relative;
+    text-align: center;
 }
