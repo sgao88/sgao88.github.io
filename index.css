@@ -1,7 +1,7 @@
 body {
     font-family: 'Crete Round';
     font-size: 20px;
-    background-image: linear-gradient(lightblue, blanchedalmond);
+    background-image: linear-gradient(lightblue, #FFE4E9);
     margin-top: 75px;
     margin-bottom: 0px;
     margin-right: 100px;
@@ -44,7 +44,7 @@ p {
 
 /* The side navigation menu */
 .sidenav {
-    height: 35%; /* 100% Full-height */
+    height: 45%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
     z-index: 1; /* Stay on top */
@@ -87,8 +87,7 @@ p {
 }
 
 .aboutme {
-    background: pink;
-    border: white 10px;
+    background: RGB(255, 192, 203, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,8 +98,7 @@ p {
 }
 
 .dtext {
-    background: pink;
-    border: white 10px;
+    background: RGB(255, 192, 203, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +132,6 @@ img {
     bottom: 0;
     position: absolute;
     bottom: 8px;
-    left: 16px;
 }
 
 .skyline {
@@ -142,7 +139,7 @@ img {
     opacity: 0.3;
     z-index: 0;
     bottom: 0;
-    padding-top: 120px;
+    padding-top: 70px;
     position: relative;
     text-align: center;
 }
@@ -154,6 +151,7 @@ img {
     z-index: 0;
     bottom: 0;
     text-align: center;
+    border-radius: 0;
 }
 
 hr {
@@ -180,4 +178,35 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-size: 17px;
+}
+
+.exp {
+    background: RGB(173, 216, 230, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 25px;
+}
+
+.expbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.projbox {
+    background: RGB(125, 122, 188, 0.4);
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.projlist {
+    font-size: 20px;
 }
